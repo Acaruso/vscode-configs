@@ -1,0 +1,43 @@
+
+{
+    "workbench.editor.enablePreview": false,
+
+    "editor.minimap.enabled": false,
+    "editor.roundedSelection": false,
+    "editor.renderIndentGuides": false,
+    "editor.renderLineHighlight": "none",
+    "editor.wordWrap": "on",
+    "editor.codeLens": false,
+    "editor.cursorBlinking": "solid",
+
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+    "search.exclude": {
+        "**/Debug": true,
+        "**/Release": true
+    },
+
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+
+    "vim.disableAnnoyingNeovimMessage": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "k"],
+            "after": ["<Esc>"]
+        }
+    ],
+
+    "C_Cpp.formatting": "vcFormat",
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.block": "sameLine",
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "sameLine",
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.lambda": "sameLine",
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.namespace": "sameLine",
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.type": "sameLine",
+    "C_Cpp.vcFormat.newLine.beforeElse": false,
+    "C_Cpp.vcFormat.newLine.beforeCatch": false
+}
